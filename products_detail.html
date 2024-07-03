@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Detail page |Neecorp Ecommerce Store</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- ------------SECTION 1-------------------- -->
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="img/logo.png">
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Account</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="img/cart.png" width="30px" height="30px">
+                <img class="menu-icon" src="img/menu.png" width="28px" height="28px" onclick="menutoggle()">
+            </div>
+    
+        </div>
+
+ <!-- ------------/SECTION 1-------------------- -->
+
+
+
+
+
+  <!-- -----------------/SINGLE PRODUCTS DETAILS------------------- -->
+    <div class="x-contain single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="img/gallery-1.jpg" width="80%" id="ProductImg">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="img/gallery-1.jpg" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/gallery-2.jpg" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/gallery-3.jpg" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/gallery-4.jpg" class="small-img">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-2">
+                <p>Home / T-Shirts</p>
+                <h1>Wine T-Shirt Printed By HRX</h1>
+                <h4>$100.00</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btnn">Add to Cart</a>
+                <h3>Product Details</h3>
+                <br>
+                <small>Give your wardrobe a style Upgrade with HRX Men's active T-shirt
+                    Team with a pair of shots your morning workout or a denim for a an evening
+                    out with the guys
+                </small>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------RELATED PRODUCTS -------------------- -->
+
+    <div class="x-contain">
+        <div class="row row-2">
+                <h2>Related Products</h2>
+                <p>View More</p>
+        </div>
+       </div>
+
+   <!-- --------------------/RELATED PRODUCTS -------------------- -->
+
+
+ <div class="x-contain">
+        <div class="row">
+            <div class="col-4">
+                <img src="img/product-9.jpg" alt="">
+                <h2>Black Roles Watch</h2>
+                <p>$100000.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-10.jpg" alt="">
+                <h2>Mixed coloured Hrx Sneakers </h2>
+                <p>$250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-11.jpg" alt="">
+                <h2>Grey Hrx Sneakers</h2>
+                <p>$200.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product-12.jpg" alt="">
+                <h2>Black Joggers</h2>
+                <p>$120.00</p>
+            </div>
+        </div>
+
+
+        
+ </div>
+
+   <!-- -----------------/ SINGLE PRODUCTS DETAILS------------------- -->
+
+   
+
+
+
+
+
+ <!-- ----------------FOOTER------------------------------ -->
+
+ <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="foot-col-1">
+                <h3>Download our App</h3>
+                <p>Download App for Android and IOS mobile</p>
+                <div class="app-logo">
+                    <img src="img/play-store.png" alt="">
+                    <img src="img/app-store.png" alt="">
+                </div>
+            </div>
+    
+            <div class="foot-col-2">
+                <img src="img/logo-white.png">
+                <p>Our Purpose Is To Sustainably Make The Pleasure And Benefits Of Sports Accessible To The Many.</p>
+            </div>
+    
+            <div class="foot-col-3">
+               <h3><ins>Useful Links</ins></h3>
+               <ul>
+                <li>Coupons</li>
+                <li>Return Policy</li>
+                <li>Terms and Conditions</li>
+                <li>Blog Posts</li>
+                <li>Join Affiliate</li>
+               </ul> 
+            </div>
+            <div class="foot-col-4">
+                <h3><ins>Follow us @</ins></h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Snapchat</li>
+                    <li>Discord</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyryt">Copyright &copy; - 2024 Neecorp Store</p>
+        
+    </div>
+ </div>
+
+ <!-- ----------------/FOOTER------------------------------ -->
+
+
+ <!-- ----------JS FOR TOGGLE MENU------------------- -->
+ <script>
+    var menuitems = document.getElementById("menuitems");
+
+    menuitems.style.maxHeight = "0px";
+
+    function menutoggle() {
+            if (menuitems.style.maxHeight == "0px")
+                {
+                    menuitems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    menuitems.style.maxHeight = "0px";
+                }
+
+    }
+ </script>
+
+ <!-- ----------/JS FOR TOGGLE MENU------------------- -->
+
+
+ <!-- ----------JS FOR TOGGLE IMAGE GALLERY------------------- -->
+
+ <script>
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img");
+
+    SmallImg[0].onclick = function ()
+        {
+            ProductImg.src = SmallImg[0].src
+        }
+    SmallImg[1].onclick = function ()
+        {
+            ProductImg.src = SmallImg[1].src
+        }
+    SmallImg[2].onclick = function ()
+        {
+            ProductImg.src = SmallImg[2].src
+        }
+    SmallImg[3].onclick = function ()
+        {
+            ProductImg.src = SmallImg[3].src
+        }
+    SmallImg[4].onclick = function ()
+        {
+            ProductImg.src = SmallImg[4].src
+        }
+    
+ </script>
+ <!-- ----------/JS FOR TOGGLE IMAGE GALLERY------------------- -->
+
+</body>
+</html>

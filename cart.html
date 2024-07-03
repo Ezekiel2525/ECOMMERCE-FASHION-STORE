@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products page |Neecorp Ecommerce Store</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- ------------SECTION 1-------------------- -->
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="img/logo.png">
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Account</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="img/cart.png" width="30px" height="30px">
+                <img class="menu-icon" src="img/menu.png" width="28px" height="28px" onclick="menutoggle()">
+            </div>
+    
+        </div>
+
+ <!-- ------------/SECTION 1-------------------- -->
+
+
+ <!-- /* ------------------CART PAGE-------------------- */ -->
+
+  <div class="x-contain cart-page">
+    
+        <table>
+            <tr>
+                <th>Products</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="img/buy-1.jpg">
+                        <div>
+                            <h2>Wine T-Shirts</h2>
+                            <h3>Price: $100.00</h3>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$100.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="img/buy-2.jpg">
+                        <div>
+                            <h2>Black HRX Sneakers</h2>
+                            <h3>Price: $250.00</h3>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$250.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="img/buy-3.jpg">
+                        <div>
+                            <h2>Joggers</h2>
+                            <h3>Price: $150.00</h3>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$150.00</td>
+            </tr>
+        </table>
+
+
+        <div class="total">
+           
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$500.00</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$35.00</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>535.00</td>
+                    </tr>
+                </table>
+        
+           
+        </div>
+   
+  </div>
+
+
+
+
+
+
+
+
+ <!-- /* ------------------/CART PAGE-------------------- */ -->
+
+
+
+
+
+ <!-- ----------------FOOTER------------------------------ -->
+
+ <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="foot-col-1">
+                <h3>Download our App</h3>
+                <p>Download App for Android and IOS mobile</p>
+                <div class="app-logo">
+                    <img src="img/play-store.png" alt="">
+                    <img src="img/app-store.png" alt="">
+                </div>
+            </div>
+    
+            <div class="foot-col-2">
+                <img src="img/logo-white.png">
+                <p>Our Purpose Is To Sustainably Make The Pleasure And Benefits Of Sports Accessible To The Many.</p>
+            </div>
+    
+            <div class="foot-col-3">
+               <h3><ins>Useful Links</ins></h3>
+               <ul>
+                <li>Coupons</li>
+                <li>Return Policy</li>
+                <li>Terms and Conditions</li>
+                <li>Blog Posts</li>
+                <li>Join Affiliate</li>
+               </ul> 
+            </div>
+            <div class="foot-col-4">
+                <h3><ins>Follow us @</ins></h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Snapchat</li>
+                    <li>Discord</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyryt">Copyright &copy; - 2024 Neecorp Store</p>
+        
+    </div>
+ </div>
+
+ <!-- ----------------/FOOTER------------------------------ -->
+
+ <script>
+    var menuitems = document.getElementById("menuitems");
+
+    menuitems.style.maxHeight = "0px";
+
+    function menutoggle() {
+            if (menuitems.style.maxHeight == "0px")
+                {
+                    menuitems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    menuitems.style.maxHeight = "0px";
+                }
+
+    }
+ </script>
+
+</body>
+</html>
